@@ -1,0 +1,314 @@
+#tof{
+   filter:drop-shadow(0 0 30px #333);
+   height: 100%;
+   width: 100%;
+   border-radius: 10px;
+   box-shadow: 0 4px 8px 0 rgba(7, 3, 3, 0.2);
+   mix-blend-mode:multiply;
+}
+.mere{
+   display: flex;
+}
+.fils{
+   margin-right: 0%;
+}
+.fille{
+   width: 60%;
+   height: 20cm;
+   transition: 0.3s;
+}
+  #nom {color: transparent;
+  background: conic-gradient(                                                                                                              
+    rgb(174, 148, 235) 75%, rgb(175, 163, 231) 45%
+  );
+  background-size: 1%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  font-size: 2em; 
+  text-align: left;
+}
+#descri{
+   color:  rgb(219, 219, 231);
+}
+.droite{
+   text-align: center;
+   margin-right: 0%;
+   width: 50%;
+}
+.gauche{
+   text-align: center;
+   margin-left: 0%;
+   width: 50%;
+}
+ @keyframes color {
+   0%   { background: rgb(107, 17, 107); }
+   20%  { background: #2f207a; }
+   40%  { background: #21288a; }
+   /* 60%  { background: rgb(24, 23, 23); } */
+   /* 80%  { background: #000f01; } */
+   100% { background: #85127b; }
+ }
+ 
+.mere{
+   background: hsl(180, 62%, 4%); /* Fallback */
+   animation: color 5s infinite linear;
+   /* padding: 2em; */
+   height: 15cm;
+   border-radius: 10px;
+
+   /* text-align: center;  */
+}
+  h1{
+  text-align: center;
+   font-family: 'Kavoon', sans-serif;
+   font-size: xx-large;
+   color: rgb(21, 2, 36);
+ } 
+ .mere2, .mere3, .mere4{
+   text-align: center;
+ }
+ a{
+   font-style: none;
+   color: white;
+ }
+ .gauche{
+   display: flex;
+ }
+ .temps{
+   border:2px ridge black;
+   width: 20%;
+   height: 0.8cm;
+   background-color: rgba(103, 165, 236, 0.521);
+   border-radius: 6.5px;
+   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+   transition: 0.3s;
+   margin-left: 0%;
+ }
+ .argent{
+   border:2px ridge black;
+   width: 40%;
+   height: 0.8cm;
+   background-color: rgb(153, 153, 245);
+   border-radius: 6.5px;
+   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+   transition: 0.3s;
+   margin-left: 0%;
+ }
+ .stress{
+   border:2px ridge black;
+   width: 60%;
+   height: 0.8cm;
+   background-color: rgb(86, 86, 243);
+   border-radius: 6.5px;
+   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+   transition: 0.3s;
+   margin-left: 0%;
+ }
+ .distraction{
+   border:2px ridge black;
+   width: 80%;
+   height: 0.8cm;
+   background-color: rgb(91, 58, 240);
+   border-radius: 6.5px;
+   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+   transition: 0.3s;
+   margin-left: 0%;
+ }
+ .reunion{
+   border:2px ridge black;
+   width: 100%;
+   height: 0.8cm;
+   background-color: blue;
+   border-radius: 6.5px;
+   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+   transition: 0.3s;
+   margin-left: 0%;
+ 
+ }
+
+
+
+ @keyframes color2 {
+   0%   { background: blue; }
+   20%  { background: rgb(91, 58, 240); }
+   40%  { background: rgb(153, 153, 245); }
+   100% { background: rgb(86, 86, 243); }
+ }
+ 
+.distraction{
+   background: hsl(180, 62%, 4%); /* Fallback */
+   animation: color2 1s infinite linear;
+  }
+  @keyframes color3 {
+   0%   { background: blue; }
+   20%  { background: rgb(91, 58, 240); }
+   40%  { background: rgb(153, 153, 245); }
+   100% { background: blue; }
+ }
+ 
+.reunion{
+   background: hsl(180, 62%, 4%); /* Fallback */
+   animation: color3 1s infinite linear;
+  }
+  @keyframes color4 {
+   0%   { background:rgb(86, 86, 243) ; }
+   20%  { background: rgb(153, 153, 245) blue ; }
+   40%  { background: blue; }
+   100% { background:rgb(91, 58, 240); }
+ }
+ 
+.stress{
+   background: hsl(180, 62%, 4%); /* Fallback */
+   animation: color4 1s infinite linear;
+  }
+  @keyframes color6 {
+   0%   { background: rgb(153, 153, 245)blue; }
+   20%  { background: rgb(91, 58, 240); }
+   40%  { background: blue; }
+   100% { background: rgb(63, 63, 189); }
+ }
+ 
+.argent{
+   background: hsl(180, 62%, 4%); /* Fallback */
+   animation: color6 1s infinite linear;
+  }
+  @keyframes color5 {
+   0%   { background:rgb(91, 58, 240); }
+   20%  { background:blue; }
+   40%  { background:rgb(86, 86, 243) ; }
+   100% { background:rgb(153, 153, 245) ; }
+ }
+ 
+.temps{
+   background: hsl(180, 62%, 4%); /* Fallback */
+   animation: color5 1s infinite linear;
+  }
+
+
+
+
+   .bacc,.bepc{
+      width:  100%;
+      height: 3cm;
+      background-color: rgb(90, 91, 139);
+      border-radius: 4px;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); 
+      transition: 0.3s;
+      text-align: center;
+   }
+   .bacc h1 , .bepc h1{
+      font-family: 'Kavoon', sans-serif;
+      font-size: xx-large;
+      color: white;
+   }
+  .sary{
+    height: 5cm;
+    width: 5cm;
+  }
+  .escalier{
+    width: 40%;
+    margin-left: 0;
+  }
+  *{
+    font-family: 'Kavoon', sans-serif;
+  }
+  .lien{
+    font-size: 1.2em;
+    text-decoration: none;
+    text-align: center;
+  }
+  .ang{
+    background-color: #21288a;
+    height: 7cm;
+    width: 10%;
+    color: aliceblue;
+    text-align: center;
+  }
+  .frs{
+    background-color: #21288a;
+    height: 5cm;
+    width: 10%;
+    color: aliceblue;
+    text-align: center;
+  }
+  .esp{
+    background-color: #21288a;
+    height: 4cm;
+    width: 10%;
+    color: aliceblue;
+    text-align: center;
+  }
+  .mlg{
+    background-color: #21288a;
+    height: 10cm;
+    width: 10%;
+    color: aliceblue;
+    text-align: center;
+  }
+  .mere2{
+    display: flex;
+  }
+  .dau{
+    width: 60%;
+  }
+  .son{
+    width: 40%;
+  }
+  .a1{
+    width: 25%;
+    text-align: center;
+  }
+  .nav{
+    display: flex;
+    text-align: center;
+    background-color: #02063f;
+    height: 1cm;
+  }
+  .lien2{
+    text-decoration: none;
+    width: 25%;
+    color: rgb(243, 238, 238);
+    text-align: center;
+  }
+  #lalala{
+    color: white;
+  }
+  .education{
+    display: none;
+  }
+  .bacc1,.bepc1{
+    width: 30%;
+  }
+  .hum{
+    display: flex;
+  }
+  h4{
+    width: 25%;
+    text-align: center;
+  }
+  .info{
+   display: none;
+  }
+  .int{
+    display: none;
+  }
+  .droite{
+    display: flex;
+    width: 100%;
+  }
+  .inte{
+    width: 25%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  .inte .sary{
+    position: absolute;
+    width: 30%;
+  }
+  .inte h2{
+    text-align: center;
+    mix-blend-mode: overlay;
+    color: #ffff;
+  }
+ 
