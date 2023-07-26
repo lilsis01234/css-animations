@@ -1,0 +1,146 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="fabiola_portfolio.css"/>
+        <title>my own portfolio</title>
+        <script src="jquery.js"></script>
+    </head>
+    <div class="mere">
+        <div class="fille">
+            <p><br><br>
+            <h1><strong id="nom">RAHARIMANANA<br> Tianantenaina Fabiola</strong><br></h1>
+
+            <script>
+            texts = new Array();
+            texts.push("Python back-end developer");
+            texts.push("Php back-end developer");
+            texts.push("Php front-end developer");
+            texts.push("Javascript front-end developer");
+            texts.push("ReactJs front-end developer");
+
+            var point = 0;
+
+            function changeText(){
+            $('h3').html(texts[point]);
+            if(point < texts.length - 1){
+            point ++;
+            }else{
+            point = 0;
+            }
+            }
+            changeText();
+            setInterval(changeText, 2000) 
+            </script>
+
+             <nav class="nav">
+                <label class="lien2" onclick="Optedu();">Educational <br> background </label>
+                <label class="lien2" onclick="infos();">Informations </label>
+                <label class="lien2" onclick="interest();">Interest </label>
+                <label class="lien2" onclick="competences();">Compétences<br> personnelles </label>
+                </nav>
+            <center><h3 id="lalala"></h3></center> 
+            <center><a class="lien">View curriculum vitae</a> </center>
+            </p>
+            <!-- <script>
+                function mandeh(lien){
+                    if (document.getElementsByClassName !== lien){
+                        document.getElementsByClassName.style.display="none";
+                    }
+                }
+            </script> -->
+        </div>
+        <div class="fils">
+            <img id="tof" src="fabiola2.jpg"/>
+            
+        </div>
+    </div>
+<script>
+    function Optedu(){
+        if(document.getElementById("Oedu").style.display=="none"||document.getElementById("Oedu").style.display==""){
+        document.getElementById("Oedu").style.display="flex";
+        }
+        else {
+            document.getElementById("Oedu").style.display="none";
+        }
+    }
+
+    function infos(){
+        if(document.getElementById("info").style.display=="none"||document.getElementById("info").style.display==""){
+        document.getElementById("info").style.display="block";
+        }
+        else {
+            document.getElementById("info").style.display="none";
+        }
+    }
+
+    function interest(){
+        if(document.getElementById("int").style.display=="none"||document.getElementById("int").style.display==""){
+        document.getElementById("int").style.display="block";
+        }
+        else {
+            document.getElementById("int").style.display="none";
+        }
+    }
+
+    function competences(){
+        if(document.getElementById("com").style.display=="none"||document.getElementById("com").style.display==""){
+        document.getElementById("com").style.display="flex";
+        }
+        else {
+            document.getElementById("Oedu").style.display="none";
+        }
+    }
+</script>
+<body>
+    <!-- <input name="edu" id="edu" type="checkbox" onclick="Optedu();"></input> -->
+        <div class="education" id="Oedu">
+        <div class="bacc1"><button class="bacc"><h1>BACC Serie D Mention Bien 2021</h1>
+            </button></div>
+        <div class="escalier">
+            <br><br><br><br><br><br>
+                <button class="temps"></button><br>
+                <button class="argent"></button><br>
+                <button class="stress"></button><br>
+                <button class="distraction"></button>
+                <button class="reunion"></button>
+        </div>
+        <div class="bepc1"><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <button class="bepc"><h1>BEPC A OPTION</h1></button></div>
+        </div>
+
+       
+        <div class="info"id="info">
+            <h1 class="blanc">INFORMATIONS COMPLEMENTAIRES</h1>
+            <div class="hum">
+            <h4><label>❤️ </label>e-mail : fabiola.rahar@gmail.com</h4>
+            <h4>Telephone : 0388420347</h4>
+            <h4>linkedin : Fabiola RAHARIMANANA</h4>
+            <h4>github : lilsis01234</h4>
+            </div>
+        </div>
+
+        <div class="int" id="int"> 
+            <div>
+            <h1>INTERESTS & HOBBIES</h1>
+           </div>
+            <div class="droite">
+            <div class="inte">
+                <img class="sary" src="dessin.webp"/>
+                <h2>DRAWING</h2>
+            </div>
+            <div class="inte">
+                <img class="sary"src="livres.jpg"/>
+                <h2>READING</h2>
+            </div>
+            <div class="inte">
+                <img class="sary"src="sport.jpg"/>
+                <h2>SPORTS</h2>
+            </div>
+            
+            <div class="inte">
+                <img class="sary"src="livres.jpg"/>
+                <h2>WEB DESIGN</h2>
+            </div>
+        </div>
+        </div>
+
+</body>
